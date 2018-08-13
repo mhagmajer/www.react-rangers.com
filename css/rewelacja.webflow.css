@@ -90,6 +90,7 @@ h3 {
 
 .section_standard.testimonials {
   position: relative;
+  display: none;
   overflow: hidden;
 }
 
@@ -100,6 +101,10 @@ h3 {
   background-position: 0px 0px;
   background-size: 12px;
   text-align: center;
+}
+
+.section_standard.meet_us_section.animation_bcg.hide {
+  display: none;
 }
 
 .section_standard.cta {
@@ -291,10 +296,7 @@ h3 {
 
 .section_partners {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   padding: 50px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -501,10 +503,9 @@ h3 {
   text-decoration: underline;
 }
 
-.div-block-15 {
+.copyrights_holder {
   position: absolute;
   left: 0px;
-  top: 0px;
   right: 0px;
   bottom: 0px;
   background-color: rgba(0, 0, 0, .25);
@@ -532,6 +533,13 @@ h3 {
   align-items: center;
   background-color: #142036;
   color: #142036;
+}
+
+.section_footer.fixed {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .testimonial_paragraph {
