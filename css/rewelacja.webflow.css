@@ -1477,6 +1477,21 @@ h3 {
   text-decoration: none;
 }
 
+.footer {
+  position: relative;
+  padding: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #142036;
+  color: #fff;
+}
+
 @media (max-width: 991px) {
   .section_standard {
     padding: 50px 30px;
@@ -1674,6 +1689,9 @@ h3 {
   .chart_second {
     padding-left: 15px;
   }
+  .footer {
+    padding: 50px 30px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1860,6 +1878,10 @@ h3 {
     padding-top: 30px;
     padding-left: 0px;
   }
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -2023,6 +2045,10 @@ h3 {
   }
   .meet_us_heading {
     text-align: center;
+  }
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
