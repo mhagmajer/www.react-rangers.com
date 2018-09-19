@@ -159,12 +159,8 @@ h3 {
   cursor: pointer;
 }
 
-.offer_wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding: 30px 20px;
-  background-color: #fff;
-  text-align: center;
+.button_dark.small_padding {
+  margin-top: 0px;
 }
 
 .subheading_offers {
@@ -650,11 +646,6 @@ h3 {
   margin-left: 5px;
 }
 
-.social_icon_link.center {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
 .social_icon_link.no_margin {
   margin-left: 0px;
 }
@@ -882,6 +873,10 @@ h3 {
   text-align: center;
 }
 
+.form.hide_form {
+  display: none;
+}
+
 .form_block {
   margin-top: 20px;
 }
@@ -1012,6 +1007,10 @@ h3 {
   text-align: center;
 }
 
+.form-copy.hide {
+  display: none;
+}
+
 .join_icon {
   width: 100px;
   margin-bottom: 20px;
@@ -1059,10 +1058,6 @@ h3 {
 
 .tag_link:hover {
   color: #142036;
-}
-
-.tag_link.first_tag_link {
-  margin-left: 0px;
 }
 
 .pagination_wrapper {
@@ -1123,113 +1118,6 @@ h3 {
 .hire_icon {
   width: 100px;
   margin-bottom: 20px;
-}
-
-.post_image {
-  position: relative;
-  height: 0px;
-  margin-bottom: 20px;
-  padding-bottom: 56.25%;
-  background-image: url('../images/webflow_3.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.column-2 {
-  padding-right: 0px;
-  padding-left: 0px;
-  text-align: left;
-}
-
-.column-3 {
-  padding-left: 30px;
-}
-
-.post_summary {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: rgba(20, 32, 54, .75);
-  font-size: 18px;
-  line-height: 175%;
-  font-weight: 500;
-}
-
-.div-block-35 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.text-block-copy {
-  display: inline-block;
-  font-weight: 700;
-}
-
-.date_post {
-  display: inline-block;
-  margin-right: 15px;
-  padding: 5px 10px;
-}
-
-.post_page_image {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}
-
-.post_page_overlay {
-  padding: 25px;
-  background-color: rgba(20, 32, 54, .75);
-}
-
-.post_page_title {
-  margin-bottom: 0px;
-  color: #fff;
-}
-
-.recent_post_sidebar_wrapper {
-  margin-bottom: 10px;
-  padding: 30px;
-  background-color: rgba(20, 32, 54, .05);
-  text-align: left;
-}
-
-.recent_post_heading {
-  text-align: left;
-}
-
-.recent_post_paragraph {
-  text-align: left;
-}
-
-.tag_links_wrapper {
-  margin-top: 20px;
-  text-align: left;
 }
 
 .section_standard-copy-copy {
@@ -1407,24 +1295,6 @@ h3 {
   text-decoration: none;
 }
 
-.sample_image_2 {
-  overflow: hidden;
-  min-width: 300px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/pexels-photo-374598.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/pexels-photo-374598.jpeg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-}
-
-.sample_image_3 {
-  overflow: hidden;
-  min-width: 300px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/pexels-photo-1153213.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/pexels-photo-1153213.jpeg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-}
-
 .div-block-44 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1460,11 +1330,6 @@ h3 {
 .link-3 {
   color: #142036;
   text-decoration: none;
-}
-
-.cta_icon {
-  width: 75px;
-  margin-bottom: 20px;
 }
 
 .chart_separator {
@@ -1543,6 +1408,18 @@ h3 {
   -ms-flex-align: center;
   align-items: center;
   text-align: right;
+}
+
+.link-5 {
+  display: inline-block;
+  padding: 20px;
+  background-color: #e2e2e2;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.bold-text-3 {
+  color: #21264b;
 }
 
 @media (max-width: 991px) {
@@ -1686,9 +1563,6 @@ h3 {
   .section_standard-copy.padding_decorative_element {
     padding-top: 120px;
   }
-  .section_standard-copy.img_sharing_expertise {
-    padding-top: 120px;
-  }
   .column_wrapper {
     padding-top: 0px;
   }
@@ -1716,14 +1590,6 @@ h3 {
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-  .column-3 {
-    margin-top: 20px;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  .post_summary {
-    font-size: 16px;
-  }
   .section_standard-copy-copy {
     padding: 30px;
   }
@@ -1735,12 +1601,6 @@ h3 {
     margin-top: 20px;
   }
   .sample_image_1 {
-    min-width: 200px;
-  }
-  .sample_image_2 {
-    min-width: 200px;
-  }
-  .sample_image_3 {
     min-width: 200px;
   }
   .chart {
@@ -1903,10 +1763,6 @@ h3 {
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
-  .post_summary {
-    margin-top: 20px;
-    font-size: 14px;
-  }
   .basic_icon.icon_margin_top {
     margin-top: 20px;
   }
@@ -1927,16 +1783,6 @@ h3 {
   }
   .event_heading {
     font-size: 24px;
-  }
-  .sample_image_2 {
-    height: 0px;
-    min-width: auto;
-    padding-bottom: 56.25%;
-  }
-  .sample_image_3 {
-    height: 0px;
-    min-width: auto;
-    padding-bottom: 56.25%;
   }
   .div-block-44 {
     -webkit-box-orient: vertical;
@@ -2029,6 +1875,11 @@ h3 {
     min-height: auto;
     padding-right: 20px;
     padding-left: 20px;
+    background-image: -webkit-linear-gradient(270deg, rgba(20, 32, 54, .75), rgba(20, 32, 54, .75)), url('../images/webflow_1.jpg');
+    background-image: linear-gradient(180deg, rgba(20, 32, 54, .75), rgba(20, 32, 54, .75)), url('../images/webflow_1.jpg');
+    background-position: 0px 0px, 63% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
     text-align: center;
   }
   .hero_heading {
@@ -2044,9 +1895,6 @@ h3 {
   .post_read_more_link {
     padding-right: 10px;
     padding-left: 10px;
-  }
-  .footer_links_wrapper.wide {
-    width: 100%;
   }
   .footer_link {
     text-align: center;
