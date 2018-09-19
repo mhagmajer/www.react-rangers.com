@@ -534,7 +534,7 @@ h3 {
 }
 
 .section_footer.fixed {
-  position: absolute;
+  position: static;
   left: 0px;
   right: 0px;
   bottom: 0px;
