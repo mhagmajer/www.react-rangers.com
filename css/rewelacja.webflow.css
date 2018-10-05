@@ -1245,8 +1245,8 @@ h3 {
 .sample_image_2 {
   overflow: hidden;
   min-width: 300px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/targi kraków.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/targi kraków.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/targi_krakow.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/targi_krakow.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
