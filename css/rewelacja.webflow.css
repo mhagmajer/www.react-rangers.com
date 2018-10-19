@@ -463,22 +463,22 @@ h3 {
 }
 
 .blog_image_wrapper.img_2 {
-  background-image: url('../images/webflow_5.jpg');
+  background-image: url('../images/blog_post_snake2.png');
   background-size: cover;
 }
 
 .blog_image_wrapper.img_3 {
-  background-image: url('../images/webflow_4.jpg');
+  background-image: url('../images/blog post 4.jpg');
   background-size: cover;
 }
 
 .blog_image_wrapper.img_4 {
-  background-image: url('../images/webflow_3.jpg');
+  background-image: url('../images/post3.jpg');
   background-size: 321px;
 }
 
 .blog_image_wrapper.img_1 {
-  background-image: url('../images/why-are-remote-workers-more-productive-photo.jpg'), url('../images/webflow_6.jpeg');
+  background-image: url('../images/blog_post_6.jpeg'), url('../images/blog_post_6.jpeg');
   background-position: 50% 50%, 0px 0px;
   background-size: cover, cover;
 }
