@@ -1517,6 +1517,33 @@ h3 {
   background-size: cover, auto;
 }
 
+.sample_image_5 {
+  overflow: hidden;
+  min-width: 300px;
+  background-image: url('../images/kariera_it_lodz.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
+  background-image: url('../images/kariera_it_lodz.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+}
+
+.sample_image_6 {
+  overflow: hidden;
+  min-width: 300px;
+  background-image: url('../images/kariera_it_katowice.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
+  background-image: url('../images/kariera_it_katowice.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+}
+
+.sample_image_7 {
+  overflow: hidden;
+  min-width: 300px;
+  background-image: url('../images/frontend_con.png'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
+  background-image: url('../images/frontend_con.png'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+}
+
 @media (max-width: 991px) {
   .section_standard {
     padding: 50px 30px;
