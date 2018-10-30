@@ -103,10 +103,6 @@ h3 {
   text-align: center;
 }
 
-.section_standard.meet_us_section.animation_bcg.hide {
-  display: none;
-}
-
 .section_standard.cta {
   background-color: #a0c41d;
   background-image: url('../images/Bez-nazwy-1_Obszar-roboczy-1.png');
@@ -631,6 +627,7 @@ h3 {
 }
 
 .footer_contact_info {
+  display: block;
   margin-top: 15px;
   margin-bottom: 15px;
   color: hsla(0, 0%, 100%, .5);
@@ -1018,50 +1015,6 @@ h3 {
   margin-bottom: 20px;
 }
 
-.heading-copy {
-  display: inline-block;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: left;
-}
-
-.page_title_wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 50px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: left;
-}
-
-.tag_link {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: rgba(20, 32, 54, .05);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  color: rgba(20, 32, 54, .5);
-  font-size: 11px;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.tag_link:hover {
-  color: #142036;
-}
-
 .pagination_wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1375,42 +1328,12 @@ h3 {
   text-decoration: underline;
 }
 
-.upload_button {
-  margin-top: 10px;
-  margin-right: 20px;
-  padding: 10px 15px;
-  border: 1px solid #142036;
-  background-color: transparent;
-  color: #142036;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
 .offer_wrapper-copy {
   margin-right: auto;
   margin-left: auto;
   padding: 30px 20px;
   background-color: #fff;
   text-align: center;
-}
-
-.pagination_wrapper-copy {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 30px;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: right;
 }
 
 .link-5 {
@@ -1431,22 +1354,6 @@ h3 {
   margin-bottom: 50px;
   padding-bottom: 0px;
   text-align: left;
-}
-
-.tab-link-tab-2 {
-  margin-left: 10px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: rgba(20, 32, 54, .05);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  color: rgba(20, 32, 54, .5);
-  font-size: 11px;
-  font-weight: 700;
-}
-
-.tab-link-tab-2:hover {
-  color: #142036;
 }
 
 .tab-link-tab-1 {
@@ -1517,15 +1424,6 @@ h3 {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_poznan.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
-}
-
-.sample_image_kariera_it_poznan {
-  overflow: hidden;
-  min-width: 300px;
-  background-image: url('../images/kariera_it_rzeszow.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
-  background-image: url('../images/kariera_it_rzeszow.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
 }
 
 .sample_image_5 {
@@ -1748,12 +1646,6 @@ h3 {
   .footer {
     padding: 50px 30px;
   }
-  .pagination_wrapper-copy {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
   .sample_image_2 {
     min-width: 200px;
   }
@@ -1761,9 +1653,6 @@ h3 {
     min-width: 200px;
   }
   .sample_image_4 {
-    min-width: 200px;
-  }
-  .sample_image_kariera_it_poznan {
     min-width: 200px;
   }
   .sample_image_5 {
@@ -1899,16 +1788,6 @@ h3 {
   .form-copy {
     width: 100%;
   }
-  .heading-copy {
-    margin-bottom: 30px;
-  }
-  .page_title_wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
   .pagination_wrapper {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1967,14 +1846,6 @@ h3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .pagination_wrapper-copy {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-  }
   .tabs-menu {
     margin-top: 0px;
   }
@@ -1992,11 +1863,6 @@ h3 {
     padding-bottom: 56.25%;
   }
   .sample_image_4 {
-    height: 0px;
-    min-width: auto;
-    padding-bottom: 56.25%;
-  }
-  .sample_image_kariera_it_poznan {
     height: 0px;
     min-width: auto;
     padding-bottom: 56.25%;
@@ -2165,16 +2031,6 @@ h3 {
   .meet_us_icon {
     margin-right: 0px;
   }
-  .tag_link {
-    display: inline-block;
-    margin-bottom: 10px;
-  }
-  .tag_link.first {
-    margin-left: 0px;
-  }
-  .div-block-40 {
-    text-align: center;
-  }
   .section_standard-copy-copy {
     padding-right: 20px;
     padding-left: 20px;
@@ -2201,12 +2057,6 @@ h3 {
   .footer {
     padding-right: 20px;
     padding-left: 20px;
-  }
-  .upload_button {
-    display: block;
-    width: 100%;
-    margin-right: 0px;
-    padding: 5px 10px;
   }
   .tabs-menu {
     margin-bottom: 40px;
