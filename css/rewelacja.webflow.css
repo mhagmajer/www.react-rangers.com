@@ -463,24 +463,26 @@ h3 {
 }
 
 .blog_image_wrapper.img_2 {
-  background-image: url('../images/blog_post_snake2.png');
+  background-image: url('../images/1_FHd2w0U_7vP0ZUY7Nx3GPA.png');
+  background-position: 50% 0px;
   background-size: cover;
 }
 
 .blog_image_wrapper.img_3 {
-  background-image: url('../images/blog post 4.jpg');
+  background-image: url('../images/1_gvj6E_9HF9EBxrczw3bHMA.jpeg');
+  background-position: 50% 50%;
   background-size: cover;
 }
 
 .blog_image_wrapper.img_4 {
-  background-image: url('../images/post3.jpg');
-  background-size: 321px;
+  background-image: url('../images/1_vol_miIXTo1rCelcwO7Mlg.jpeg');
+  background-size: cover;
 }
 
 .blog_image_wrapper.img_1 {
-  background-image: url('../images/blog_post_6.jpeg'), url('../images/blog_post_6.jpeg');
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, cover;
+  background-image: url('../images/0_g-QIQZFIHGFXItfL.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .footer_links_wrapper {
@@ -1502,17 +1504,26 @@ h3 {
 .sample_image_3 {
   overflow: hidden;
   min-width: 300px;
-  background-image: url('../images/kariera_it_rzeszow.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
-  background-image: url('../images/kariera_it_rzeszow.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_rzeszow.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_rzeszow.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 .sample_image_4 {
   overflow: hidden;
   min-width: 300px;
-  background-image: url('../images/kariera_it_poznan.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
-  background-image: url('../images/kariera_it_poznan.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_poznan.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_poznan.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.sample_image_kariera_it_poznan {
+  overflow: hidden;
+  min-width: 300px;
+  background-image: url('../images/kariera_it_rzeszow.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
+  background-image: url('../images/kariera_it_rzeszow.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
   background-position: 50% 50%, 0px 0px;
   background-size: cover, auto;
 }
@@ -1520,28 +1531,28 @@ h3 {
 .sample_image_5 {
   overflow: hidden;
   min-width: 300px;
-  background-image: url('../images/kariera_it_lodz.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
-  background-image: url('../images/kariera_it_lodz.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 .sample_image_6 {
   overflow: hidden;
   min-width: 300px;
-  background-image: url('../images/kariera_it_katowice.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
-  background-image: url('../images/kariera_it_katowice.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 .sample_image_7 {
   overflow: hidden;
   min-width: 300px;
-  background-image: url('../images/frontend_con.png'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent);
-  background-image: url('../images/frontend_con.png'), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent);
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 @media (max-width: 991px) {
@@ -1750,6 +1761,18 @@ h3 {
     min-width: 200px;
   }
   .sample_image_4 {
+    min-width: 200px;
+  }
+  .sample_image_kariera_it_poznan {
+    min-width: 200px;
+  }
+  .sample_image_5 {
+    min-width: 200px;
+  }
+  .sample_image_6 {
+    min-width: 200px;
+  }
+  .sample_image_7 {
     min-width: 200px;
   }
 }
@@ -1969,6 +1992,26 @@ h3 {
     padding-bottom: 56.25%;
   }
   .sample_image_4 {
+    height: 0px;
+    min-width: auto;
+    padding-bottom: 56.25%;
+  }
+  .sample_image_kariera_it_poznan {
+    height: 0px;
+    min-width: auto;
+    padding-bottom: 56.25%;
+  }
+  .sample_image_5 {
+    height: 0px;
+    min-width: auto;
+    padding-bottom: 56.25%;
+  }
+  .sample_image_6 {
+    height: 0px;
+    min-width: auto;
+    padding-bottom: 56.25%;
+  }
+  .sample_image_7 {
     height: 0px;
     min-width: auto;
     padding-bottom: 56.25%;
