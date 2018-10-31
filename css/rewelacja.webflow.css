@@ -1429,8 +1429,8 @@ h3 {
 .sample_image_5 {
   overflow: hidden;
   min-width: 300px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/karierea_it_lodz.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_lodz.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -1438,8 +1438,8 @@ h3 {
 .sample_image_6 {
   overflow: hidden;
   min-width: 300px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_katowice.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/kariera_it_katowice.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -1447,8 +1447,8 @@ h3 {
 .sample_image_7 {
   overflow: hidden;
   min-width: 300px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/example-bg.png');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/frontend_con.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/frontend_con.png');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
